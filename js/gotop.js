@@ -54,7 +54,7 @@ window.onscroll = () => {
     menuContent.style.top = '0px';
     menuContent.style.transition = '0.5s';
   }else{
-    menuContent.style.top = '-60px';
+    menuContent.style.top = '-130px';
     menuContent.style.transition = '0.5s';
   }
   prevScrollPos = currentScrollPos;
@@ -90,3 +90,12 @@ abajo.addEventListener('click', () => {
   document.documentElement.scrollTop = 600;
   
 });
+
+document.querySelector(".menu-btn").addEventListener("click", () => {
+    document.querySelector(".nav-menu").classList.toggle("show");
+});
+
+ScrollReveal().reveal('.Hello-Beauties',{ delay: 50 });
+ScrollReveal().reveal('.slideshow-container', { delay: 50 });
+ScrollReveal().reveal('.youtube', { delay: 50 });
+ScrollReveal().reveal('.cards-banner-two', { delay: 50 });

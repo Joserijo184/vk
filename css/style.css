@@ -19,8 +19,6 @@ box-sizing: border-box;
 /**go to**/
 
 
-
-/**go to**/
 .go-top{
   
     position: fixed;
@@ -221,6 +219,11 @@ list-style: none;
 
 .youtube {
   border-top:2.3px solid var(--gold);
+  background:rgba(219, 33, 33, 0.164)
+
+
+ 
+  
  
 }
 
@@ -285,10 +288,11 @@ list-style: none;
     margin-bottom: 30px;
     margin-top: 10px; 
     margin: 0px 10px;
-    padding: 20px;
+    padding: 30px;
     padding-left: 50px;
     border-radius: 24px;
     transition: 0.2s;
+    
    
   }
   
@@ -303,7 +307,7 @@ list-style: none;
     outline: 0;
     padding: 12px;
     color: white;
-    background-color: #000;
+    background-color:var(--pink);
     text-align: center;
     cursor: pointer;
     width: 100%;
@@ -362,6 +366,7 @@ list-style: none;
   justify-content: center;
   margin-bottom: 10px;
   color: white;
+ font-family: 'IM Fell English', serif;
 
 }
 
@@ -479,11 +484,8 @@ list-style: none;
 /* card banner two*/
 
 
-
-
-
-
 /*social media*/
+
 .social {
   margin: 50px;
 
@@ -679,7 +681,7 @@ margin: 20px auto;
  width: 100%;
  height: 100px;
  border-top:5px solid var(--gold);
- background:rgba(0, 0, 0, 0.562);
+ background:rgba(0, 0, 0, 0.884);
  display:flex;  
  justify-content: center;
  align-items: center;
@@ -689,5 +691,66 @@ margin: 20px auto;
    color: white;
    font-size: 20px;
 
+}
+input,
+textarea {
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  margin: 0;
+  outline: none;
+  padding: 10px;
+}
+
+input[type="button"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.input-group {
+  clear: both;
+  margin: 15px 0;
+  position: relative;
+}
+
+.input-group input[type='button'] {
+  background-color: #eeeeee;
+  min-width: 38px;
+  width: auto;
+  transition: all 300ms ease;
+}
+
+.input-group .button-minus,
+.input-group .button-plus {
+  font-weight: bold;
+  height: 38px;
+  padding: 0;
+  width: 38px;
+  position: relative;
+}
+
+.input-group .quantity-field {
+  position: relative;
+  height: 38px;
+  left: -6px;
+  text-align: center;
+  width: 62px;
+  display: inline-block;
+  font-size: 13px;
+  margin: 0 0 5px;
+  resize: vertical;
+}
+
+.button-plus {
+  left: -13px;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+  -webkit-appearance: none;
 }
 
