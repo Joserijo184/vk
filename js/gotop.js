@@ -5,6 +5,7 @@ let menu = document.querySelector('.list-container');
 let menuContent = document.querySelector('.menu');
 var activador = true;
 
+
 btnMenu.addEventListener('click', (event) => {
 
   //Icon X
@@ -89,10 +90,6 @@ abajo.addEventListener('click', () => {
   document.body.scrollTop = 600;
   document.documentElement.scrollTop = 600;
   
-});
-
-document.querySelector(".menu-btn").addEventListener("click", () => {
-    document.querySelector(".nav-menu").classList.toggle("show");
 });
 
 ScrollReveal().reveal('.Hello-Beauties',{ delay: 50 });

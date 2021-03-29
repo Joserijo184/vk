@@ -1,6 +1,3 @@
-document.querySelector(".menu-btn").addEventListener("click", () => {
-    document.querySelector(".nav-menu").classList.toggle("show");
-});
 
 ScrollReveal().reveal('.slideshow-container',{ delay: 50 });
 ScrollReveal().reveal('.youtube', { delay: 50 });
@@ -34,3 +31,4 @@ function showDivs(n) {
   x[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " w3-red";
 }
+
